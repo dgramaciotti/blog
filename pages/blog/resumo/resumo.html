@@ -1,3 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumo HAS 2025</title>
+    <!-- Tailwind Play CDN for self-containment -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            red: '#F81212',
+                            border: '#CCC9C7'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Iframe overrides */
+        body.is-iframed header {
+            display: none !important;
+        }
+        body.is-iframed {
+            background-color: transparent !important;
+        }
+        body.is-iframed main {
+            padding-top: 0 !important;
+        }
+    </style>
+</head>
 <body class="bg-slate-50 text-slate-800">
 
 <script>
@@ -6,19 +41,6 @@
         document.body.classList.add('is-iframed');
     }
 </script>
-
-<style>
-    /* Iframe overrides */
-    body.is-iframed header {
-        display: none !important;
-    }
-    body.is-iframed {
-        background-color: transparent !important;
-    }
-    body.is-iframed main {
-        padding-top: 0 !important;
-    }
-</style>
 
 <div class="hidden" data-metadata="true" data-palette="Vibrant Blue and Orange" data-plan="1. Diagnostico 2. Estagiamento 3. Fenomenos 4. Fluxograma 5. Farmacos 6. Metas" data-nosvg="Confirmado: NENHUM SVG OU MERMAID JS FOI UTILIZADO NESTE ARQUIVO."></div>
 
@@ -350,3 +372,4 @@
     });
 </script>
 </body>
+</html>
