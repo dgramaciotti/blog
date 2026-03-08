@@ -1,6 +1,6 @@
 ---
 title: Manejo do Trauma Abdominal Fechado
-date: 2024-11-19
+date: 2025-01-20
 description: O manejo do trauma abdominal fechado evoluiu drasticamente com a melhoria das técnicas de imagem e intervenção minimamente invasiva.
 tags: ["Cirurgia", "Trauma"]
 coverImage: https://picsum.photos/seed/trauma/600/400

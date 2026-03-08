@@ -63,7 +63,7 @@ async function getFlexiblePageData(globPath) {
             post: htmlContent,
             postUrl: fileName.toLowerCase().replace(/\s+/g, "-"),
             postName: data.title ?? fileName,
-            postDate: data.date ?? new Date(stats.birthtime).toLocaleDateString("pt-BR"),
+            postDate: (data.date instanceof Date) ? data.date.toLocaleDateString("pt-BR") : (data.date ?? new Date(stats.birthtime).toLocaleDateString("pt-BR")),
             postAuthor: data.author ?? "Anonymous",
             postDescription: data.description ?? "",
             postTime: calculateReadingTime(content),
