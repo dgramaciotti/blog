@@ -18,7 +18,7 @@ coverImage: "heart.svg"
 ## Guia Interativo HAS 2025
 *Abaixo, o resumo interativo detalhado sobre a nova diretriz de hipertensão (embebido).*
 
-<iframe src="/blog/resumo" width="100%" height="800px" style="border: 2px solid #EEE; border-radius: 1.5rem; background: white;" loading="lazy"></iframe>
+<iframe src="/blog/resumo.html" width="100%" height="800px" style="border: 2px solid #EEE; border-radius: 1.5rem; background: white;" loading="lazy"></iframe>
 
 ---
 
