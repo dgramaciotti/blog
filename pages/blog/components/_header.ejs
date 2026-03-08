@@ -13,18 +13,7 @@
         </a>
     </div>
     
-    <div class="flex items-center gap-6">
-        <div class="relative hidden sm:flex items-center bg-gray-50 border border-border px-3 py-1.5 rounded-lg w-64 ring-offset-2 focus-within:ring-2 ring-black/5">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-400 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-            </svg>
-            <input type="text" id="site-search" placeholder="Buscar..." class="bg-transparent border-none text-xs w-full focus:ring-0 outline-none">
-            
-            <!-- Search Results Dropdown -->
-            <div id="search-results" class="absolute top-full left-0 right-0 mt-2 bg-white border border-border rounded-xl shadow-2xl hidden z-50 max-h-96 overflow-y-auto">
-                <div class="p-4 text-center text-[10px] font-bold text-gray-400 uppercase tracking-widest" id="search-status">Carregando índice...</div>
-                <div id="search-items" class="divide-y divide-border/50"></div>
-            </div>
-        </div>
+    <div class="flex-1 flex justify-end ml-2 sm:ml-6 items-center">
+        <%- include('_search') %>
     </div>
 </header>
